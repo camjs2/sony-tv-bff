@@ -10,6 +10,6 @@ A small project employing Backend For Frontend pattern to control a Sony Bravia 
 1. Install node.js
 2. Clone the repo
 
-'''JavaScript
+```JavaScript
 node server.js
-'''
+```
