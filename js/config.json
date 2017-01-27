@@ -1,0 +1,15 @@
+{
+  "server": "james-laptop.home.int:3001",
+  "livingroom": {
+    "host": "livingroom-tv",
+    "port": 80,
+    "path": "/sony/IRCC/",
+    "authCode": "0000"
+  },
+  "bedroom": {
+    "host": "bedroom-tv.home.int",
+    "port": 80,
+    "path": "/IRCC/",
+    "authCode": "0000"
+  }
+}
