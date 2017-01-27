@@ -1,0 +1,590 @@
+[
+{
+  "name": "poweroff",
+  "displayname": "Power off",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "input",
+  "displayname": "Input",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "gguide",
+  "displayname": "G-guide",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "epg",
+  "displayname": "EPG",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "favorites",
+  "displayname": "Favorites",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "display",
+  "displayname": "Display",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "home",
+  "displayname": "Home menu",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "options",
+  "displayname": "Options",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "return",
+  "displayname": "Return",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "up",
+  "displayname": "Cursor up",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "down",
+  "displayname": "Cursor down",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "right",
+  "displayname": "Cursor right",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "left",
+  "displayname": "Cursor left",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "confirm",
+  "displayname": "confirm",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "red",
+  "displayname": "Red",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "green",
+  "displayname": "Green",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "yellow",
+  "displayname": "Yellow",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "blue",
+  "displayname": "Blue",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num1",
+  "displayname": "1",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num2",
+  "displayname": "2",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num3",
+  "displayname": "3",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num4",
+  "displayname": "4",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num5",
+  "displayname": "5",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num6",
+  "displayname": "6",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num7",
+  "displayname": "7",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num8",
+  "displayname": "8",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num9",
+  "displayname": "9",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num0",
+  "displayname": "0",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num11",
+  "displayname": "11",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "num12",
+  "displayname": "12",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "volumeUp",
+  "displayname": "Volume up",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "volumeDown",
+  "displayname": "Volume down",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "mute",
+  "displayname": "Mute",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "channelup",
+  "displayname": "Channel up",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "channeldown",
+  "displayname": "Channel down",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "subtitle",
+  "displayname": "Subtitles",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "ClosedCaption",
+  "displayname": "Closed Caption",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Enter",
+  "displayname": "Enter",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "DOT",
+  "displayname": "DOT",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Analog",
+  "displayname": "Analog",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Teletext",
+  "displayname": "Teletext",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Exit",
+  "displayname": "Exit",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Analog2",
+  "displayname": "Analog2",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "*AD",
+  "displayname": "*AD",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Digital",
+  "displayname": "Digital",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Analog?",
+  "displayname": "Analog",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "BS",
+  "displayname": "BS",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "CS",
+  "displayname": "CS",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "BSCS",
+  "displayname": "BSCS",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Ddata",
+  "displayname": "D data",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "PicOff",
+  "displayname": "Picture Off",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Tv_Radio",
+  "displayname": "Tv Radio",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Theater",
+  "displayname": "Theater",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "SEN",
+  "displayname": "SEN",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "InternetWidgets",
+  "displayname": "Internet Widgets",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "InternetVideo",
+  "displayname": "Internet Video",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Netflix",
+  "displayname": "Netflix",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "SceneSelect",
+  "displayname": "Scene Select",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Mode3D",
+  "displayname": "3D Mode",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "iManual",
+  "displayname": "iManual",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Audio",
+  "displayname": "Audio",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Wide",
+  "displayname": "Wide",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Jump",
+  "displayname": "Jump",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "PAP",
+  "displayname": "PAP",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "MyEPG",
+  "displayname": "MyEPG",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "ProgramDescription",
+  "displayname": "Program Description",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "WriteChapter",
+  "displayname": "Write Chapter",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "TrackID",
+  "displayname": "TrackID",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "TenKey",
+  "displayname": "Ten Key",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "AppliCast",
+  "displayname": "AppliCast",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "acTVila",
+  "displayname": "acTVila",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "DeleteVideo",
+  "displayname": "Delete Video",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "PhotoFrame",
+  "displayname": "Photo Frame",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "TvPause",
+  "displayname": "Tv Pause",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "KeyPad",
+  "displayname": "KeyPad",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Media",
+  "displayname": "Media",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "SyncMenu",
+  "displayname": "Sync Menu",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Forward",
+  "displayname": "Forward",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Play",
+  "displayname": "Play",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Rewind",
+  "displayname": "Rewind",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Prev",
+  "displayname": "Prev",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Stop",
+  "displayname": "Stop",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Next",
+  "displayname": "Next",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Rec",
+  "displayname": "Rec",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Pause",
+  "displayname": "Pause",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Eject",
+  "displayname": "Eject",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "FlashPlus",
+  "displayname": "Flash Plus",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "FlashMinus",
+  "displayname": "Flash Minus",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "TopMenu",
+  "displayname": "Top Menu",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "PopUpMenu",
+  "displayname": "Popup Menu",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "RakurakuStart",
+  "displayname": "RakurakuStart",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "OneTouchTimeRec",
+  "displayname": "OneTouchTimeRec",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "OneTouchView",
+  "displayname": "OneTouchView",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "OneTouchRec",
+  "displayname": "OneTouchRec",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "OneTouchStop",
+  "displayname": "OneTouchStop",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "DUX",
+  "displayname": "DUX",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "FootballMode",
+  "displayname": "Football Mode",
+  "visible":"true",
+  "description":"this is what this does"
+},
+{
+  "name": "Social",
+  "displayname": "Social",
+  "visible":"true",
+  "description":"this is what this does"
+}
+]

@@ -1,20 +1,21 @@
 var request = require('request');
 var config = require('./config.json')
+var jsonQuery = require('json-query')
 
 var IrReq = function(tv, ircode, callback) {
   //load configuration
-  var ip = config[tv].host;
-  var path = config[tv].path;
-  var port = config[tv].port;
-  var auth = config[tv].authCode;
+  var ip = jsonQuery('tvs[urlname=' + tv + '].host', {data: config}).value;
+  var path = jsonQuery('tvs[urlname=' + tv + '].path', {data: config}).value;
+  var port = jsonQuery('tvs[urlname=' + tv + '].port', {data: config}).value;
+  var auth = jsonQuery('tvs[urlname=' + tv + '].authcode', {data: config}).value;
 
   //make the request
-  console.log("Calling... http:// " +  ip + ':' + port + path + ircode);
+  console.log("Calling... http://" +  ip + ':' + port + path + ircode);
   request({
       url: 'http://' + ip + ':' + port + path, //URL to hit
       method: 'POST',
       headers: {
-      'X-Auth-PSK':' + auth + ',
+      'X-Auth-PSK':'0000',
       'Content-Type': 'text/xml; charset=utf-8',
       'soapaction': '"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC"'
       },

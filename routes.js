@@ -1,4 +1,5 @@
 var config = require('./js/config.json')
+var buttons = require('./js/buttons.json')
 
 module.exports = function(app){
     var sonyCmds = require('./controllers/sony-commands');
@@ -7,9 +8,13 @@ module.exports = function(app){
       {res.send(config)}
     })
 
+    app.get('/tv/sony/buttons', function (req, res, next) {
+      {res.send(buttons)}
+    })
+
     app.get('/tv/sony/getcommands', sonyCmds.getCommands);
 
-    
+
     app.get('/tv/sony/:tvname/home', sonyCmds.home);
     app.get('/tv/sony/:tvname/poweroff', sonyCmds.poweroff);
     app.get('/tv/sony/:tvname/input', sonyCmds.input);

@@ -1,15 +1,22 @@
 {
-  "server": "james-laptop.home.int:3001",
-  "livingroom": {
-    "host": "livingroom-tv",
+  "server": "james-laptop.home.int:4001",
+  "tvs": [
+  {
+    "id" : 1,
+    "urlname": "livingroom",
+    "name": "Living room",
+    "host": "livingroom-tv.home.int",
     "port": 80,
     "path": "/sony/IRCC/",
     "authCode": "0000"
   },
-  "bedroom": {
+  {
+    "id" : 2,
+    "urlname": "bedroom",
+    "name":"Bedrooom",
     "host": "bedroom-tv.home.int",
     "port": 80,
     "path": "/IRCC/",
     "authCode": "0000"
   }
-}
+]}
