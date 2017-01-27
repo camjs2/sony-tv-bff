@@ -1,10 +1,10 @@
 var sonyBravia = require('../js/sonyBravia');
-var config = require('../js/config.json')
+//var config = require('../js/config.json')
 var irCode = require('./const');
 
 
 // common response
-function respond(req, res, err, codeResponse){
+function respond(res, req, err, codeResponse){
   console.log(irCode.return);
   res.send(codeResponse)
 }
