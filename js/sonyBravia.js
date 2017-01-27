@@ -1,4 +1,5 @@
 var request = require('request');
+var config = require('./config.json')
 
 var IrReq = function(tv, ircode, callback) {
   //load configuration
@@ -26,6 +27,7 @@ var IrReq = function(tv, ircode, callback) {
             '</s:Body>' +
             '</s:Envelope>',
   }, function(error, response, body){
+
       if(error) {
           console.log('communication error ' + error);
           callback(error, response);
@@ -39,7 +41,7 @@ var IrReq = function(tv, ircode, callback) {
 
 var GetTvApis = function( ResponseCallback) {
   var headers = {
-    'Content-Type':     'application/x-www-form-urlencoded'
+    'Content-Type': 'application/x-www-form-urlencoded'
   }
   // Configure the request
   var options = {
@@ -58,7 +60,6 @@ var GetTvApis = function( ResponseCallback) {
       }
    })
 }
-
 
 
 

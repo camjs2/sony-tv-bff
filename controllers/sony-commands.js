@@ -4,7 +4,7 @@ var irCode = require('./const');
 
 
 // common response
-function respond(res, req, err, codeResponse){
+function respond(req, res, err, codeResponse){
   console.log(irCode.return);
   res.send(codeResponse)
 }
