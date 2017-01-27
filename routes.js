@@ -2,13 +2,14 @@ var config = require('./js/config.json')
 
 module.exports = function(app){
     var sonyCmds = require('./controllers/sony-commands');
-    var sonyComboCmds = require('./controllers/sony-combo-commands');
 
-    app.get('/tv/find', function (req, res) {
-      res.send(config)
+    app.get('/tv/find', function (req, res, next) {
+      {res.send(config)}
     })
 
     app.get('/tv/sony/getcommands', sonyCmds.getCommands);
+
+    
     app.get('/tv/sony/:tvname/home', sonyCmds.home);
     app.get('/tv/sony/:tvname/poweroff', sonyCmds.poweroff);
     app.get('/tv/sony/:tvname/input', sonyCmds.input);
@@ -108,8 +109,5 @@ module.exports = function(app){
     app.get('/tv/sony/:tvname/dux', sonyCmds.dux);
     app.get('/tv/sony/:tvname/footballmode', sonyCmds.footballmode);
     app.get('/tv/sony/:tvname/social', sonyCmds.social);
-
-    app.get('/tv/sony/:tvname/bbc1hd', sonyComboCmds.bbc1hd);
-    app.get('/tv/sony/:tvname/itv1hd', sonyComboCmds.itv1hd);
 
 }
